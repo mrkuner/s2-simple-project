@@ -1,0 +1,69 @@
+/*
+Estilos - http://www.mepsyd.es/
+Ministerio de Educacion, Politica Social y Deporte. 
+© Copyright 2008. 
+Todos los derechos reservados.
+*/
+
+
+body {margin: 0; padding: 0; background:#fff; font-family: arial, helvetica, sans-serif; color: #000;}
+img {border: 0;}
+.clear {clear: both; margin: 0 auto 0 auto;}
+/*.oculto {display: none;}*/
+
+/* Estilos para la barra superior*/
+#cabecera-superior {}
+
+	#cabecera-superior #escudo {position: absolute; z-index: 1; left: 0; margin: 0 0 0em 0.4em;}
+	#cabecera-superior #menu {min-height: 1.56em; height: auto !important; height: 1.56em;  margin: 0em 0 0 0em; padding: 0;}
+		#cabecera-superior #menu #idiomas {display: none;}
+		#cabecera-superior #menu #opciones {display: none;}
+		#cabecera-superior #menu #buscador {display: none;}
+
+#banda-superior {margin:0;}
+
+	#banda-superior #areas ul {list-style:none; margin:4em 0 0 0.3em; padding:0; border:none; }
+	#banda-superior #areas ul li {display: inline;}
+	#banda-superior #areas a {display: none;}
+	#banda-superior #areas a:hover, #banda-superior #areas a:active {display: none;}
+	#banda-superior #areas li #current {display: none; }
+	#banda-superior #areas ul li a#current {display:block; margin: 0 0 0 0; color: #000; text-decoration: none; font-weight: bold; font-size: 0.9em; font-family: arial, helvetica, sans-serif;}
+
+#banda-superior #navegacion-principal {display: none;}
+/* Inicio contenedor y central contenido */
+#contenedor {width:45em; min-height: 30em; height: auto !important; height: 30em; background: #fff; margin: 2.6em 0 0 0;}
+
+/* Seccion y migas */
+#contenedor #seccion-educacion {width: 60em; min-height: 1.56em; height: auto !important; height: 1.56em; margin: 0; padding: 0 0 0.1em 0; border-bottom: 1px solid #EF5026; background: #fff;}
+	#contenedor #seccion-educacion h1 {font-weight: normal; font-size: 1.3em; padding:0.9em 0 0 0; margin:0 0 0 0.3em;}
+	#contenedor #seccion-educacion .migas {padding:0.9em 0 1.2em 0.6em; font-size: 0.75em; margin: 0; color: #000;}
+	#contenedor #seccion-educacion .migas strong {font-weight:normal}
+	#contenedor #seccion-educacion .migas ol,
+	#contenedor #seccion-educacion .migas ol li{display:inline;margin:0;padding:0;list-style:none}
+	#contenedor #seccion-educacion .migas a {color: #000; text-decoration: underline; padding: 0 0.6em 0 0.7em; font-weight: normal; background: url("../img/ico-migas.gif") no-repeat left; }
+	#contenedor #seccion-educacion .migas li strong {color: #000; padding: 0 0.6em 0 0.7em; font-weight: bolder; background: url("../img/ico-migas.gif") no-repeat left; }
+	#contenedor #seccion-educacion .migas a:hover {text-decoration: none;}
+
+#contenedor #seccion-politicasocial {width: 60em; min-height: 1.56em; height: auto !important; height: 1.56em; margin: 0; padding: 0 0 0.1em 0; border-bottom: 1px solid #EF5026; background: #fff;}
+	#contenedor #seccion-politicasocial h1 {font-weight: bold; font-size: 1em; padding:0.3em 0 0 0; margin:0 0 0 0.3em;}
+	#contenedor #seccion-politicasocial h1 a {font-weight: normal; text-decoration: none; color: #000;}
+	#contenedor #seccion-politicasocial .migas {padding:0.9em 0 0.3em 0.6em; font-size: 0.7em; margin: 0; color: #000;}
+	#contenedor #seccion-politicasocial .migas strong {font-weight: normal}
+	#contenedor #seccion-politicasocial .migas ol,
+	#contenedor #seccion-politicasocial .migas ol li{display:inline;margin:0;padding:0;list-style:none}
+	#contenedor #seccion-politicasocial .migas a {color: #000; text-decoration: underline; padding: 0 0.6em 0 0.7em; font-weight: normal; background: url("../img/ico-migas.gif") no-repeat left; }
+	#contenedor #seccion-politicasocial .migas li strong {color: #000; padding: 0 0.6em 0 0.7em; font-weight: bolder; background: url("../img/ico-migas.gif") no-repeat left; }
+	#contenedor #seccion-politicasocial .migas a:hover {text-decoration: none;}
+
+/* Menu de contenido */
+#contenedor #menu-contenido .subseccion {width:13.4em; margin: 0; padding: 0.9em 0.2em 0.6em 0.1em; color: #126985; font-weight: bold; font-size: 1.3em; font-family: arial, helvetica, sans-serif;}
+#contenedor #menu-contenido .subseccion a {color: #126985; font-weight: bold; text-decoration: none;}
+#contenedor #menu-contenido .subseccion a:hover {color: #126985; font-weight: bold; text-decoration: none;}
+
+#contenedor #menu-contenido {display: none;}
+
+/* Pie */ 
+#contenedor #pie{display: none}
+
+/* Pie de accesibilidad */
+#contenedor #pie-accesibilidad {display: none}

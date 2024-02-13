@@ -1,0 +1,10 @@
+-- table EJEMPLO_PERSONA
+Insert into EJEMPLO_PERSONA
+   (ID, TIPOID, NUMEROID, NOMBRE, APELLIDO1, 
+    APELLIDO2, FECHA_NACIMIENTO, SEXO)
+ Values
+   (1, 'NIF', '11111111H', 'Nombre', 'Apellido1', 
+    'Apellido2-2', CURRENT_TIMESTAMP(), 'M');
+
+COMMIT;
+ 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="Persona">
+	
+	<select id="obtenerPersona" parameterType="com.farasanz.model.Persona" resultType="com.farasanz.model.Persona">
+		select id, 
+		       tipoId, 
+		       numeroId,
+		       nombre,
+		       apellido1,
+		       apellido2,
+		       fecha_nacimiento,
+		       sexo
+		  from ejemplo_persona
+		 where id=#{id}
+	</select>
+		
+	<update id="updatePersona" parameterType="com.farasanz.model.Persona" >
+		update ejemplo_persona
+		   set tipoId = #{tipoId},
+		       numeroId = #{numeroId},
+		       nombre = #{nombre},
+		       apellido1 = #{apellido1},
+		       apellido2 = #{apellido2},
+		       fecha_nacimiento = #{fecha_nacimiento},
+		       sexo = #{sexo}
+		where id=#{id}
+	</update>
+</mapper>

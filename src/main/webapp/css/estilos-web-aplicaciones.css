@@ -1,0 +1,136 @@
+/*
+Estilos - http://www.mepsyd.es/
+Ministerio de Educacion, Politica Social y Deporte. 
+© Copyright 2008. 
+Todos los derechos reservados.
+*/
+
+
+body {margin: 0; padding: 0; background:#507D83 url("../img/fon-home.jpg") top center no-repeat; font-family: arial, helvetica, sans-serif; color: #000;}
+img {border: 0;}
+.clear {clear: both; margin: 0 auto 0 auto;}
+/*.oculto {display: none;}*/
+
+/* Estilos para la barra superior*/
+#cabecera-superior {width: 60em; margin: 0 auto; padding: 0; display: block; position: relative; background: #F9F9F9 url("../img/fon-barra-cabecera-superior.jpg") repeat-x top left;}
+
+	#cabecera-superior #escudo {position: absolute; z-index: 1; left: 0; margin: 0 0 0 0;}
+		#cabecera-superior #escudo img { height: 3.75em;}
+
+	#cabecera-superior #menu {min-height: 1.85em; height: auto !important; height: 1.85em; margin: 0em 0 0 16em; padding: 0;}
+
+		#cabecera-superior #menu #idiomas {float: left; margin: 0.1em 0.3em 0 0.9em; padding-top: 0.1em;}
+			#cabecera-superior #menu #idiomas ul {list-style-type: none; margin: 0; padding: 0.1em 0 0.1em 0;}
+			#cabecera-superior #menu #idiomas ul li {display: inline; list-style-type: none; margin: 0em; padding: 0;}
+			#cabecera-superior #menu #idiomas a {margin: 0em; padding: 0em 0em 0em 1.2em; white-space: nowrap; text-decoration: none; font-size: 0.7em; font-weight: bold; color: #333; background: url("../img/separador.gif") left no-repeat;}
+			#cabecera-superior #menu #idiomas a:hover {text-decoration: underline; color: #333;}
+			#cabecera-superior #menu #idiomas a.primero {background: none;}
+
+		#cabecera-superior #menu #opciones {float: left; color: #333; margin-top: 0.1em; padding-top:0.1em;}
+			#cabecera-superior #menu #opciones ul {list-style-type: none; margin: 0em; padding: 0.1em 0.5em 0.3em 0.5em;}
+			#cabecera-superior #menu #opciones ul li {display: inline; list-style-type: none; margin:0em; padding:0.3em 0 0.4em 0; border-left:0.06em solid #999;}
+			#cabecera-superior #menu #opciones ul li.ultimo {border-right:0.06em solid #999;}
+			#cabecera-superior #menu #opciones a {margin: 0; padding: 0em 1em 0em 1em; text-decoration: none; white-space: nowrap; font-size: 0.7em; color: #333;}
+			#cabecera-superior #menu #opciones a:hover {text-decoration: underline; color: #333;}
+
+#cabecera-superior #menu #buscador{float:left;margin-left:.7em;margin-top:.1em;padding-top:.1em;position:relative}
+#cabecera-superior #menu #buscador form{margin:0;padding:0}
+#cabecera-superior #menu #buscador fieldset{border:none;padding:.1em 0}
+#cabecera-superior #menu #buscador .botonbuscar{background-color:#96cbd9;border:none;color:#000;font-size:.7em;font-weight:bold;height:1.3em;margin:0 .2em 0 0;overflow:visible;padding:0 .2em;width:auto}
+*+html #cabecera-superior #menu #buscador .botonbuscar{padding:0 .4em}
+#cabecera-superior #menu #buscador .campotexto{background:#fff url("../img/ico-search.gif") no-repeat center left;border:.0625em solid #ccc;color:#333;font-size:.7em;margin:0em;padding:.1em 0 0 1.4em;width:7.5em}
+#cabecera-superior #menu #buscador label{display:inline;font-size:.7em;position:relative;margin-top:6px}
+*+html #cabecera-superior #menu #buscador label{margin-top:8px}
+
+/* Estilos para la barra superior*/
+#banda-superior {width:60em; min-height:3.19em; height: auto !important; height:3.19em; margin:2.4em auto 0 auto; padding:0;}
+#banda-superior h1{background-color:#eaeaea;color:#666;font-size:.55em;font-weight:normal;margin:0;padding:0 .3em; position:absolute; right:0; text-transform:lowercase; top:-1.2em}
+#banda-superior #areas,
+#banda-superior #navegacion-principal{background:url("../img/fon-navegacion-principal.jpg") top left no-repeat;float:left;margin:0;padding:0;position:relative;width:24em}
+#banda-superior #areas{width:36em}
+
+	#banda-superior #areas em{font-style:normal;text-decoration:underline}
+	#banda-superior #areas ul {list-style:none; margin:0; padding:0; border:none;}
+	#banda-superior #areas li {display:inline; margin:0; padding:0; float:left; height:2.2em;}
+
+	#banda-superior #areas li.educacion {background:url("../img/fon-contenido-educa.jpg") top left no-repeat; width:12.00em; padding:0; margin:0; line-height:3.2em; height:3.15em;}
+	#banda-superior #areas li.politica-social {background:url("../img/fon-contenido-politicasocial.jpg") top left no-repeat; width:13.50em; padding:0; margin:0; line-height:3.2em; height:3.15em;}
+	#banda-superior #areas li.deporte {background:url("../img/fon-contenido-deportes.jpg") top left no-repeat; width:10.50em; padding:0; margin:0; line-height:3.2em; height:3.15em;}
+
+	#banda-superior #areas a {color:#156571; font-weight:bold; white-space: nowrap; text-decoration:none; margin:0; padding:0.5em 0em 0.5em 4.5em; background:url("../img/flecha-menu-sup.gif") 3.5em 0.8em no-repeat; font-size:0.8em;}
+	#banda-superior #areas a:hover, #banda-superior #areas a:active {text-decoration:underline;}
+	#banda-superior #areas li #current {background:url("../img/fon-cont-seleccion-2.jpg") top left no-repeat #0E6883; color:white; padding:0em 3em 0em 0em; margin:0;}
+	#banda-superior #areas ul li a#current {display:block; padding-left:4.5em; height:4.03em;}
+
+	#banda-superior #navegacion-principal ul {list-style-type:none; margin:.9em 1.3em 0 1.3em; padding:0 0 0 0.5em;}
+	#banda-superior #navegacion-principal li {display:inline; margin:0; padding:0; float:left; text-align:center; font-size:0.8em;}
+    #banda-superior #navegacion-principal li.seccion {background:url("../img/fon-nav-prin-min.jpg") top left no-repeat; padding:0.7em 0.4em 0 0.4em; margin:0; width:5.6em; height:2.22em; display:block;}
+	#banda-superior #navegacion-principal li.min {background:url("../img/fon-nav-prin-min.jpg") top left no-repeat; padding:0.7em 0.4em 0 0.4em; margin:0; width:6.1em; height:2.22em; display:block;}
+	#banda-superior #navegacion-principal li.pre {background:url("../img/fon-nav-prin-pre.jpg") top left no-repeat; padding:0.7em 0.4em 0 0.4em; margin:0; width:4.7em; height:2.22em; display:block;}
+	#banda-superior #navegacion-principal li.ini {background:url("../img/fon-nav-prin-pre.jpg") top left no-repeat; padding:0.7em 0.4em 0 0.4em; margin:0; width:6.3em; height:2.22em; display:block;}
+	#banda-superior #navegacion-principal li.ser {background:url("../img/fon-nav-prin-pre.jpg") top left no-repeat; padding:0.7em 0.4em 0 0.4em; margin:0; width:5.4em; height:2.22em; display:block;}
+	#banda-superior #navegacion-principal a {color:white; font-weight:bold; white-space: nowrap; text-decoration:none; margin:0; padding:0; text-transform:uppercase; font-size:0.85em;}
+	#banda-superior #navegacion-principal a:hover, #banda-superior #navegacion-principal a:active {text-decoration:underline;}
+	#banda-superior #navegacion-principal li.seleccion {background:url("../img/fon-nav-prin-seleccion.jpg") top left repeat-x #636363; height:2.25em; display:block;}
+
+/* Inicio contenedor y central contenido */
+#contenedor {width:60em; min-height: 30em; height: auto !important; height: 30em; border-top: 4px solid #EF5026; border-left: 1px solid #000; border-right: 1px solid #000; margin: 2.4em auto 0 auto; background: #fff;}
+
+/* Seccion y migas */
+#contenedor #seccion {width: 60em; min-height: 6.56em; height: auto !important; height: 6.56em; margin: 0; padding: 0 0 0.1em 0; border-bottom: 1px solid #EF5026; background: url("../img/fon-int-educa.jpg") no-repeat top right;}
+	#contenedor #seccion h1 {font-weight: normal; font-size: 1.3em; padding:0.3em 0 0 0; margin:0 0 0 0.3em;}
+		#contenedor #seccion h1 a {font-weight: normal; text-decoration: none; color: #000;}
+	#contenedor #seccion .migas {padding:5.3em 0 0.3em 0.8em; font-size: 0.7em; margin: 0; color: #000;}
+	#contenedor #seccion .migas strong {font-weight:normal}
+	#contenedor #seccion .migas ol,
+	#contenedor #seccion .migas ol li{display:inline;margin:0;padding:0;list-style:none}
+	#contenedor #seccion .migas a {color: #000; text-decoration: underline; padding: 0 0.6em 0 0.7em; font-weight: normal; background: url("../img/ico-migas.gif") no-repeat left; }
+	#contenedor #seccion .migas li strong {color: #000; padding: 0 0.6em 0 0.7em; font-weight: bolder; background: url("../img/ico-migas.gif") no-repeat left; }
+	#contenedor #seccion .migas a:hover {text-decoration: none;}
+
+#contenedor #seccion-politicasocial {width: 60em; min-height: 6.56em; height: auto !important; height: 6.56em; margin: 0; padding: 0 0 0.1em 0; border-bottom: 1px solid #EF5026; background: url("../img/fon-int-politicasocial.jpg") no-repeat top right;}
+	#contenedor #seccion-politicasocial h1 {font-weight: normal; font-size: 1.3em; padding:0.3em 0 0 0; margin:0 0 0 0.3em;}
+	#contenedor #seccion-politicasocial h1 a {font-weight: normal; text-decoration: none; color: #000;}
+	#contenedor #seccion-politicasocial .migas {padding:5.3em 0 0.3em 0.8em; font-size: 0.7em; margin: 0; color: #000;}
+	#contenedor #seccion-politicasocial .migas strong {font-weight:normal}
+	#contenedor #seccion-politicasocial .migas ol,
+	#contenedor #seccion-politicasocial .migas ol li{display:inline;margin:0;padding:0;list-style:none}
+	#contenedor #seccion-politicasocial .migas a {color: #000; text-decoration: underline; padding: 0 0.6em 0 0.7em; font-weight: normal; background: url("../img/ico-migas.gif") no-repeat left; }
+	#contenedor #seccion-politicasocial .migas li strong {color: #000; padding: 0 0.6em 0 0.7em; font-weight: bolder; background: url("../img/ico-migas.gif") no-repeat left; }
+	#contenedor #seccion-politicasocial .migas a:hover {text-decoration: none;}
+
+/* Menu de contenido */
+#contenedor #menu-contenido .subseccion {width:13.4em; margin: 0; padding: 0.9em 0.2em 0.6em 0.1em; color: #126985; font-weight: bold; font-size: 1.3em; font-family: arial, helvetica, sans-serif;}
+#contenedor #menu-contenido .subseccion a {color: #126985; font-weight: bold; text-decoration: none;}
+#contenedor #menu-contenido .subseccion a:hover {color: #126985; font-weight: bold; text-decoration: none;}
+
+#contenedor #menu-contenido {width: 18.8em; min-height: 42em; height: auto !important; height: 42em; float:left; margin: 0; padding: 1.2em 0 0 0.3em; font-size: 0.7em; font-family: verdana, arial, helvetica, sans-serif; background: url("../img/sombra-menu.jpg") no-repeat top right;}
+#contenedor #menu-contenido ul {margin: 0 1.4em 2em 1.6em; padding: 0; text-align: left;}
+#contenedor #menu-contenido ul li {margin: 0.6em 0 0 0; padding: 0; list-style-image: url('../img/ico-list-cont.gif');}
+
+#contenedor #menu-contenido ul ul {margin: 0.56em 2em 0.56em 0.88em; padding: 0; text-align: left;}
+#contenedor #menu-contenido ul ul li {margin: 0.38em 0 0 0; padding: 0; list-style-image: url('../img/ico-arrow-menu.gif');}
+#contenedor #menu-contenido ul ul ul {margin: 0.50em 0 0.50em 0.94em; padding: 0; text-align: left;}
+#contenedor #menu-contenido ul ul ul li {margin: 0.25em 0 0 0; padding: 0; list-style-image: url('../img/ico-bullet-menu.gif');}
+#contenedor #menu-contenido ul ul ul ul {margin: 0.50em 0 0.50em 0.94em; padding: 0; text-align: left;}
+#contenedor #menu-contenido ul ul ul ul li {margin: 0.25em 0 0 0; padding: 0; list-style-image: url('../img/ico-flecha-doble-menu.gif');}
+#contenedor #menu-contenido ul ul ul ul ul {margin: 0.50em 0 0.50em 0.94em; padding: 0; text-align: left;}
+#contenedor #menu-contenido ul ul ul ul ul li {margin: 0.25em 0 0 0; padding: 0; list-style-image: url('../img/ico-guion-menu.gif');}
+
+#contenedor #menu-contenido a {color: #000000; font-weight: normal; text-decoration: none;}
+#contenedor #menu-contenido a:hover {color: #000000; font-weight: normal; text-decoration: none;}
+#contenedor #menu-contenido strong {color: #000000; font-weight: bold; text-decoration: none;}
+
+/* Pie */ 
+#contenedor #pie{border-top: 1px solid #ccc;clear:both;margin-top:.4em;padding:.8em 0;text-align: center;width:60em;}
+#contenedor #pie p {font-size: 0.7em; }
+#contenedor #pie ul {font-size: 0.7em; margin: 0; padding: 0;}
+#contenedor #pie li {padding-left: 1em; padding-right: 1em; list-style-type: none; display: inline; border-right: 1px solid #ccc;}
+#contenedor #pie li.ultimo {border-right: none;}
+#contenedor #pie ul li a {text-decoration: none; color: #333;}
+#contenedor #pie ul li a:hover {text-decoration: underline;}
+
+/* Pie de accesibilidad */
+#contenedor #pie-accesibilidad {width: 60em; margin-top:0.4em; padding: 0.8em 0 0.8em 0; text-align: center; border-top: 1px solid #ccc;}
+#contenedor #pie-accesibilidad p {font-size: 0.7em; }
+#contenedor #pie-accesibilidad p img{width:6.5em; height:2.1em; position:relative;}

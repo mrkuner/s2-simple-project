@@ -1,0 +1,11 @@
+CREATE TABLE EJEMPLO_PERSONA
+(
+  ID                NUMBER(9),
+  TIPOID            VARCHAR2(3),
+  NUMEROID          VARCHAR2(15),
+  NOMBRE            VARCHAR2(30),
+  APELLIDO1         VARCHAR2(30),
+  APELLIDO2         VARCHAR2(30),
+  FECHA_NACIMIENTO  DATE,
+  SEXO              VARCHAR2(1)
+);

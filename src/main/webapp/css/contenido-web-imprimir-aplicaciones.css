@@ -1,0 +1,158 @@
+/*
+Estilos - http://www.mepsyd.es/
+Ministerio de Educacion, Politica Social y Deporte. 
+© Copyright 2008. 
+Todos los derechos reservados.
+*/
+
+/* Estilos para contenido*/
+#contenedor #contenido {width: auto; margin: 0.4em 0.8em 0 0.1em; padding: 0.6em 0.8em 0.5em 0em;}	
+#contenedor #contenido h2 {font-family: Arial, Helvetica, sans-serif; font-size: 0.95em; font-weight: bold; color: #126985; margin: 1em 0.8em 1.1em 0.6em;}
+#contenedor #contenido h3 {font-family: Arial, Helvetica, sans-serif; font-size: 0.9em; font-weight: bold; color: #000; margin: 1.1em 0.8em 1.1em 0.6em;}
+#contenedor #contenido h4 {font-family: Arial, Helvetica, sans-serif; font-size: 0.88em; font-weight: bold; color: #126985; margin-left: 1em;}
+#contenedor #contenido h5 {font-family: Arial, Helvetica, sans-serif; font-size: 0.8em; font-weight: bold; color: #126985; margin-left: 1em;}
+#contenedor #contenido p {font-size: 0.7em; text-align: justify; margin-left: 2em; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 1.3em;}
+#contenedor #contenido ul {margin: 0.4em 1.4em 0.9em 5.5em; padding: 0; text-align: left; font-size: 0.7em; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: justify;}
+#contenedor #contenido ul li {margin: 0.6em 0 0 0; padding: 0; list-style-image: url("../img/ico-ul.gif");}
+	#contenedor #contenido ul ul {margin: 0 1.4em 0 2.8em; padding: 0; text-align: left; font-size: 1em; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: justify;}
+	#contenedor #contenido ul ul li {margin: 0.6em 0 0 0; padding: 0; list-style-image: url("../img/ico-ul2.gif");}
+	#contenedor #contenido ol {list-style-image: none; margin-left: 2.5em; padding-left: 2.5em;}
+	#contenedor #contenido ol li {font-weight: normal; font-size: 0.7em; color:#000; font-family: Verdana, Arial, Helvetica, sans-serif, Geneva; text-align: justify; line-height:1.4em; margin-top: 0.9em;}
+		#contenedor #contenido ul ol {list-style-image: none; margin-left: 1.5em; padding-left: 1.5em;}
+		#contenedor #contenido ul ol li {font-weight: normal; font-size: 0.95em; color:#000; font-family: Verdana, Arial, Helvetica, sans-serif, Geneva; text-align: justify; line-height:1.4em; margin-top: 0.8em; margin-bottom: 0.8em;}
+
+	#contenedor #contenido ol ul {margin: 0.4em 1.4em 0.9em 3.5em; padding: 0; text-align: left; font-size: 1.4em; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: justify;}
+	#contenedor #contenido ol ul li {margin: 0.6em 0 0 0; padding: 0; list-style-image: url("../img/ico-ul.gif");}
+	#contenedor #contenido ol ol {list-style-image: none; margin-left: 1.8em; margin-bottom: 0.8em; padding-left: 1.8em;}
+	#contenedor #contenido ol ol li {font-weight: normal; font-size: 1em; color:#000; font-family: Verdana, Arial, Helvetica, sans-serif, Geneva; text-align: justify; line-height:1.4em; margin-top: 0.9em;}
+
+	#contenedor #contenido a {font-weight: bold; color: #126985; font-family: Verdana, Arial, Helvetica, sans-serif, Geneva; text-decoration: none;}
+	#contenedor #contenido a:hover {font-weight: bold; color: #126985; font-family: Verdana, Arial, Helvetica, sans-serif, Geneva; text-decoration: underline;}
+
+#contenedor #contenido p {font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 0.75em; margin: 0.8em 1em 0.5em 0.8em; padding: 0 0.6em 0 0.5em;}
+#contenedor #contenido p.registro {font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 0.75em; margin: 0.4em 1em 0.5em 1.8em; background: url("../img/ico-migas.gif") center left no-repeat; padding: 0.1em 0 0 0.8em;}
+#contenedor #contenido p.registro-correcto {font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 0.8em; margin: 0.9em 1em 0.9em 0.6em; background: url("../img/ok.gif") top left no-repeat; padding: 0.8em 0.6em 1em 3.8em;}
+#contenedor #contenido p.info { font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 0.75em; margin: 0em 1em 0.5em 1.2em; padding: 0 0.6em 0 0;}
+
+#contenedor #contenido .volver {margin: 0 3em 0 0; padding: 0; text-align: center; }
+#contenedor #contenido .volver a {font-size: 0.75em; font-weight: bold; color: #126985; font-family: Arial, Helvetica, sans-serif, Geneva; text-decoration: none; background: url("../img/volver.gif") left no-repeat; padding-left: 2em;}
+#contenedor #contenido .volver a:hover {font-size: 0.75em; font-weight: bold; color: #126985; font-family: Arial, Helvetica, sans-serif, Geneva; text-decoration: underline;}
+
+#contenedor #contenido .enlaces {display: none;}
+
+#contenedor #contenido .programa {display: none;}
+
+#contenedor #contenido .migas-contenido {margin: 0.4em 0 0.4em 0; padding: 0 0 0 0; }
+#contenedor #contenido .migas-contenido ul {margin: 0; padding: 0; font-family: Arial, helvetica, sans-serif;}
+#contenedor #contenido .migas-contenido ul li {display: inline; font-size: 1.2em; margin-left: 0.6em; background: url("../img/ico-migas.gif") center left no-repeat; padding: 0em 0 0 0.8em;}
+#contenedor #contenido .migas-contenido strong {font-weight: bold; text-decoration: none;}
+
+#contenedor #contenido table {width: 37em; border: 1px solid #BCD6D5; margin: 0.6em auto 0.2em auto; }
+#contenedor #contenido table thead {background: #BCD6D5; color: #11515B; font-size: 0.75em; text-align: left; padding: 1.8em}
+#contenedor #contenido table th {padding: 0.6em}
+#contenedor #contenido table td { font-size: 0.75em; padding: 0.2em 0 0.1em 0.6em; border: 1px solid #BCD6D5; }
+#contenedor #contenido table input {padding: 0 0 0 0.2em; margin: 0; font-family: Arial, helvetica, sans-serif; font-size: 1em; border: 1px solid #BECED1;}
+#contenedor #contenido table tfoot {background: #BCD6D5; color: #11515B; text-align: left; padding: 1.8em; font-weight: bold;}
+#contenedor #contenido table tfoot input {background: #BCD6D5; border: 0; color: #11515B; font-weight: bold;}
+#contenedor #contenido table a {background: url("../img/ico-migas.gif") center left no-repeat; padding: 0em 0 0 0.6em; font-family: Arial, helvetica, sans-serif;}
+#contenedor #contenido table a.eliminar {background: url("../img/eliminar.gif") center left no-repeat; padding: 0em 0 0 1.8em;}
+#contenedor #contenido table a.modificar {background: url("../img/modificar.gif") center left no-repeat; padding: 0em 0 0 1.8em;}
+#contenedor #contenido table .checkbox {border: 0;}
+#contenedor #contenido table td label {margin: 0; padding: 0;}
+#contenedor #contenido #formulario table td label {margin: 0; padding: 0;}
+
+#contenedor #contenido .error {padding: 0.2em 0em 0.4em 1em; margin: 0.4em 0.1em 0.2em 0.1em; border-bottom: 0px dotted #ccc; border-top: 0px dotted #ccc; background: #fff;}
+#contenedor #contenido .error p {color:#CA0000; font-size: 0.8em; font-weight: bold; margin: 0.4em 0 0.4em 0; font-family: Arial, Helvetica, sans-serif;}
+#contenedor #contenido .error p.mensaje {color:#000; font-size: 0.8em; padding: 0.8em; font-weight: normal; text-align: center; margin: 0.4em 0 0.4em 0; font-family: Arial, Helvetica, sans-serif;}
+#contenedor #contenido .error ul {margin-top: 1em; margin-left: 1.4em; padding-left: 1.4em;}
+#contenedor #contenido .error ul li {list-style-image: url("../img/li-error.gif"); font-size: 0.95em; font-family: Verdana, Arial, Helvetica, sans-serif; margin-top: 0.4em;}
+
+/* contenido ancho */
+#contenedor #contenido-ancho {width: auto; margin: 0.4em 0.8em 0 1.1em; padding: 0.6em 0.8em 0.5em 0em;}	
+#contenedor #contenido-ancho .enlaces {margin: 0 0 0 0.8em; padding: 0; float: right;}
+#contenedor #contenido-ancho .enlaces ul {margin: 0; padding: 0;}
+#contenedor #contenido-ancho .enlaces ul li {display: inline; margin-left: 0.6em;}
+#contenedor #contenido-ancho .enlaces a {font-weight: bold; font-size: 0.75em; color: #126985; font-family: Arial, Helvetica, sans-serif, Geneva; text-decoration: none; background: url("../img/ico-list-cont.gif") top left no-repeat; padding: 0.1em 0 0 1.4em;}
+#contenedor #contenido-ancho .enlaces a:hover {font-weight: bold; color: #126985; font-family: Arial, Helvetica, sans-serif, Geneva; text-decoration: underline;}
+
+#contenedor #contenido-ancho h2 {font-family: Arial, Helvetica, sans-serif; font-size: 1em; font-weight: bold; color: #126985; margin: 1.9em 0.8em 0.3em 0.2em; padding: 0;}
+#contenedor #contenido-ancho h3 {font-family: Arial, Helvetica, sans-serif; font-size: 0.95em; font-weight: bold; color: #000; margin: 1.2em 0 0.9em 0.2em;}
+#contenedor #contenido-ancho p {font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 0.75em; margin: 0.8em 1em 0.5em 0.4em; padding: 0 0.6em 0 0;}
+#contenedor #contenido-ancho p.registro-correcto {font-weight: normal; font-family: Arial, Helvetica, sans-serif; font-size: 0.8em; margin: 0.9em 1em 0.9em 0.6em; background: url("../img/ok.gif") top left no-repeat; padding: 0.8em 0.6em 1em 3.8em;}
+
+#contenedor #contenido-ancho .obligatorios {font-size: 0.7em; float: right; margin-top: 0.1em;}
+#contenedor #contenido-ancho .obligatorios strong {font-weight: normal; font-size: 1.3em; }
+
+#contenedor #contenido-ancho #formulario {margin: 0; padding: 0;}
+#contenedor #contenido-ancho #formulario form {margin: 0; padding: 0;}
+#contenedor #contenido-ancho #formulario fieldset {margin: 1.2em 0 1em 0.8em; padding: 0 0 0.4em 0; border: 0;}
+#contenedor #contenido-ancho #formulario fieldset legend {font-size: 0.8em; color: #000; margin: 0 0 0.4em 0em; padding: 0 0 0 0em; font-family: Arial, Helvetica, sans-serif, Geneva; font-weight: bold;}
+#contenedor #contenido-ancho #formulario fieldset label.inicio {clear: both; display: block; margin: 0em 0 0em 11.5em; padding: 0.3em 0 0.3em 0.4em;}
+#contenedor #contenido-ancho #formulario fieldset label.inicio span.label {clear: left; color: #000; width: 7.5em; float: left; font-size: 0.75em; padding: 0.4em 0 0 0;}
+#contenedor #contenido-ancho #formulario fieldset label.inicio input {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido-ancho #formulario fieldset label {clear: both; display: block; margin: 0em 0 0em 0.5em; padding: 0.1em 0 0.1em 0.4em;}
+#contenedor #contenido-ancho #formulario fieldset label span.label {clear: left; color: #000; width: 19.5em; float: left; font-size: 0.75em; padding: 0.4em 0 0 0;}
+#contenedor #contenido-ancho #formulario fieldset label input {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido-ancho #formulario fieldset label select {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido-ancho #formulario fieldset label textarea {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0.2em 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido-ancho #formulario fieldset label .checkbox {float: left; text-align: left; background: #fff; border: 0; margin: 0.2em 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido-ancho #formulario .botones-submit {text-align: center; margin: 0.6em 3em 0 0em; padding-bottom: 0.4em;}
+#contenedor #contenido-ancho #formulario .boton {cursor: pointer; width: auto; font-weight: bold; font-size: 0.75em; font-family: Arial, helvetica, sans-serif; color: #1B6E7E; background: #fff url("../img/boton-blanco.jpg") bottom repeat-x; border: 1px solid #ccc; text-align: center; padding: 0.15em 1.1em 0.15em 1.1em; margin-top: 0.5em;}
+#contenedor #contenido-ancho #formulario .boton-inicio {cursor: pointer; width: auto; font-weight: bold; font-size: 0.75em; font-family: Arial, helvetica, sans-serif; color: #1B6E7E; background: #fff url("../img/boton-blanco.jpg") bottom repeat-x; border: 1px solid #ccc; text-align: center; padding: 0.15em 1.1em 0.15em 1.1em; margin: 0.5em 5em 0 0em;}
+#contenedor #contenido-ancho #formulario fieldset label.convocatoria {clear: both; display: block; margin: 0em 0 0em 14.5em; padding: 0.3em 0 0.3em 0.4em;}
+#contenedor #contenido-ancho #formulario fieldset label.convocatoria span.label {clear: left; color: #000; width: 7.5em; float: left; font-size: 0.75em; padding: 0.1em 0 0 0;}
+#contenedor #contenido-ancho #formulario fieldset label.convocatoria input {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+
+#contenedor #contenido-ancho .enlaces-formulario {margin: 0 0 0 0.8em; padding: 0;}
+#contenedor #contenido-ancho .enlaces-formulario ul {margin: 0; padding: 0;}
+#contenedor #contenido-ancho .enlaces-formulario ul li {display: inline; margin-left: 0.6em;}
+#contenedor #contenido-ancho .enlaces-formulario a {font-weight: bold; font-size: 0.75em; color: #126985; font-family: Arial, Helvetica, sans-serif, Geneva; text-decoration: underline; background: url("../img/ico-list-cont.gif") top left no-repeat; padding: 0.1em 0 0 1.4em;}
+#contenedor #contenido-ancho .enlaces-formulario a:hover {font-weight: bold; color: #126985; font-family: Arial, Helvetica, sans-serif, Geneva; text-decoration: underline;}
+
+#contenedor #contenido-ancho .error {padding: 0.2em 0em 0.4em 1em; margin: 1em 0.1em 0.2em 0.1em; border-bottom: 0px dotted #ccc; border-top: 0px dotted #ccc; background: #fff;}
+#contenedor #contenido-ancho .error p {color:#CC0000; font-size: 0.8em; font-weight: bold; margin: 0.4em 0 0.4em 0; font-family: Arial, Helvetica, sans-serif;}
+#contenedor #contenido-ancho .error p.mensaje {color:#000; font-size: 0.8em; padding: 0.8em; font-weight: normal; text-align: center; margin: 0.4em 0 0.4em 0; font-family: Arial, Helvetica, sans-serif;}
+#contenedor #contenido-ancho .error ul { margin-top: 1em; margin-left: 1.4em; padding-left: 1.4em;}
+#contenedor #contenido-ancho .error ul li {list-style-image: url("../img/li-error.gif"); font-size: 0.75em; font-family: Arial, Helvetica, sans-serif; margin-top: 0.4em;}
+
+/* Formulario */
+#contenedor #contenido #formulario {margin: 0; padding: 0;}
+#contenedor #contenido #formulario form {margin: 0; padding: 0;}
+#contenedor #contenido #formulario fieldset {margin: 1.2em 0 1em 0.8em; padding: 0 0 0.4em 0; border: 0;}
+#contenedor #contenido #formulario fieldset legend {font-size: 0.8em; color: #000; margin: 0 0 0.4em 0em; padding: 0 0 0 0em; font-family: Arial, Helvetica, sans-serif, Geneva; font-weight: bold;}
+#contenedor #contenido #formulario fieldset label {clear: both; display: block; margin: 0em 0 0em 0.5em; padding: 0.1em 0 0.1em 0.4em;}
+#contenedor #contenido #formulario fieldset label span.label {clear: left; color: #000; width: 14.5em; float: left; font-size: 0.75em; padding: 0.4em 0 0 0;}
+#contenedor #contenido #formulario fieldset label input {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido #formulario fieldset label select {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido #formulario fieldset label textarea {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0.2em 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido #formulario fieldset label .checkbox {float: left; text-align: left; background: #fff; border: 0; margin: 0.2em 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+
+#contenedor #contenido #formulario fieldset label.inicio {clear: both; display: block; margin: 0em 0 0em 5.5em; padding: 0.3em 0 0.3em 0.4em;}
+#contenedor #contenido #formulario fieldset label.inicio span.label {clear: left; color: #000; width: 7.5em; float: left; font-size: 0.75em; padding: 0.4em 0 0 0;}
+#contenedor #contenido #formulario fieldset label.inicio input {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+
+#contenedor #contenido #formulario fieldset label.convocatoria {clear: both; display: block; margin: 0em 0 0em 8.5em; padding: 0.3em 0 0.3em 0.4em;}
+#contenedor #contenido #formulario fieldset label.convocatoria span.label {clear: left; color: #000; width: 7.5em; float: left; font-size: 0.75em; padding: 0.1em 0 0 0;}
+#contenedor #contenido #formulario fieldset label.convocatoria input {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+
+#contenedor #contenido #formulario fieldset label.largo {clear: both; display: block; margin-left: 0.5em;}
+#contenedor #contenido #formulario fieldset label.largo span.label {clear: left; color: #000; width: auto; float: left; font-size: 0.75em; padding: 0.4em 0 0 0;}
+#contenedor #contenido #formulario fieldset label.largo input {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0.2em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido #formulario fieldset label.largo select {float: left; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0em; margin: 0 0 0 0.4em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+
+#contenedor #contenido #formulario fieldset label.abajo {clear: both; display: block; margin: 0.6em 0 0em 0.5em; padding: 0.1em 0 0.1em 0.4em;}
+#contenedor #contenido #formulario fieldset label.abajo span.label {clear: left; color: #000; width: auto; display: block; font-size: 0.75em; padding: 0.4em 0 0.3em 0;}
+#contenedor #contenido #formulario fieldset label.abajo input {display: block; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0em; margin: 0 0 0 0em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+#contenedor #contenido #formulario fieldset label.abajo textarea {display: block; text-align: left; background: #fff; border: 1px #9EB6BA solid; padding-left: 0em; margin: 0 0 0.6em 0em; font-size: 0.75em; font-family: Arial, Helvetica, sans-serif, Geneva;}
+
+#contenedor #contenido #formulario .obligatorios {display: none}
+
+#contenedor #contenido #formulario .botones-submit {text-align: center; margin: 0.6em 3em 0 0em; padding-bottom: 0.4em;}
+#contenedor #contenido #formulario .boton {cursor: pointer; width: auto; font-weight: bold; font-size: 0.75em; font-family: Arial, helvetica, sans-serif; color: #1B6E7E; background: #fff url("../img/boton-blanco.jpg") bottom repeat-x; border: 1px solid #ccc; text-align: center; padding: 0.15em 1.1em 0.15em 1.1em; margin-top: 0.5em;}
+#contenedor #contenido #formulario .boton:hover {text-decoration: none;}
+#contenedor #contenido #formulario .boton strong {color: #9D0416;}
+#contenedor #contenido #formulario .boton a {cursor: pointer; width: auto; font-weight: bold; font-size: 0.75em; font-family: Arial, helvetica, sans-serif; color: #1B6E7E; background: #fff url("../img/boton-blanco.jpg") bottom repeat-x; border: 1px solid #ccc; text-align: center; padding:  0.15em 1.1em 0.15em 1.1em; margin-top: 0.5em;}
+#contenedor #contenido #formulario .boton-inicio {cursor: pointer; width: auto; font-weight: bold; font-size: 0.75em; font-family: Arial, helvetica, sans-serif; color: #1B6E7E; background: #fff url("../img/boton-blanco.jpg") bottom repeat-x; border: 1px solid #ccc; text-align: center; padding: 0.15em 1.1em 0.15em 1.1em; margin: 0.5em 4em 0 0em;}
+
+
+

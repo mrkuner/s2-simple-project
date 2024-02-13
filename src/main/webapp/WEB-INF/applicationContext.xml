@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+           	http://www.springframework.org/schema/aop
+			http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd">
+			
+	<context:component-scan base-package="com.farasanz.*" annotation-config="true"/>
+	
+   <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+	    <property name="dataSourceClassName" value="org.h2.jdbcx.JdbcDataSource" />	    
+	    <property name="dataSourceProperties">
+	        <props>
+	            <prop key="url">jdbc:h2:mem:OMSWORLD;MODE=Oracle;DB_CLOSE_ON_EXIT=FALSE</prop>
+	            <prop key="user">sa</prop>
+	            <prop key="password"></prop>
+	        </props>
+	    </property>
+	</bean>
+	
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+	    <constructor-arg ref="hikariConfig" />
+	</bean>
+	
+	<jdbc:initialize-database data-source="dataSource">
+    	<jdbc:script separator=";" location="classpath:schema.sql"/>
+    	<jdbc:script separator=";" location="classpath:test-data.sql"/>
+ 	</jdbc:initialize-database>
+ 	
+ 	 <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="configLocation" value="classpath:sql-map-config.xml" />
+  		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" ref="sqlSessionFactory" />
+	</bean>
+	
+	<bean id="obtenerPersonaAction"
+		class="com.farasanz.web.actions.ObtenerPersonaAction" />
+	<bean id="personaDao" class="com.farasanz.dao.impl.PersonaDao">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+	</bean>
+	<bean id="personaServicio"
+		class="com.farasanz.services.impl.PersonaServicio" />
+		
+		
+</beans>

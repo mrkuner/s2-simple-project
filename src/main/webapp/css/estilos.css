@@ -1,0 +1,281 @@
+
+
+img {border:0;}
+.clear {clear: both; }
+.oculto {display: none;}
+.ico-abierta{padding:0 0 0 0.2em; width:auto; margin:0}
+.sombra-izquierda {width: 61.6em; margin: 0 auto 0 auto; background: url('../img/sombra-izquierda.jpg') left 0em no-repeat;}
+.sombra {clear: both; margin-right: 0.3em; background: url('../img/sombra-contenido.jpg') right top no-repeat;}
+
+form {margin:0; padding:0;}	
+fieldset {margin:0; padding:0 0 0 2em; border:0; clear:both;} 
+legend   {margin:0; padding:0;}	
+legend h4{margin:0; padding:0.35em; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; font-weight:bold;}
+
+label{margin:0; width:auto; font-size:0.7em; padding:1em 0 0 0.5em; font-weight:bold; clear:both; color: #147; display:block;}
+.ptxt {margin:0; padding:0; font-size:0.7em; font-weight:bold; color: #8D8D8D;}
+.inputxt {margin:0 0 0 0.4em; width:auto; font-size:0.7em; color:#147; letter-spacing:0.06em;  padding:0.2em 0.1em 0.2em 0.1em; background-color:#FFF; font-family: Arial, Helvetica, sans-serif;} 
+.inputdisable {margin:0 0 0 0.4em; width:auto; font-size:0.7em; color:#147; letter-spacing:0.06em; padding:0.2em 0.1em 0.2em 0.1em; background-color:#EEE; font-family: Arial, Helvetica, sans-serif;} 
+.txtarea { margin:0 0 0 0.4em; width:100%; font-size:0.7em; color:#147; letter-spacing:0.06em; padding:0.2em 0.1em 0.2em 0.1em; background-color:#FFF; font-family: Arial, Helvetica, sans-serif;}
+.check  {margin:0;  padding:0.1em 0.1em 0.1em 0.1em; background-color:#FFFFFF; border: 0;} 
+.radio  {margin:0;  padding:0.1em 0.1em 0.1em 0.1em; background-color:#FFFFFF; border: 0;}
+.bot-submit {padding:0; margin:0.5em 5em 3m 0; text-align:right; font-family:Arial, Helvetica, sans-serif;}
+.bot {width:auto; font-weight:bold; cursor:hand; color:#147; font-size:0.7em; background: url("../img/fondo-boton.jpg") bottom repeat-x; border:0.06em #8D96A8 solid; margin:0; padding:0.25em 0.75em 0.2em 0.75em;}
+	
+	
+body {margin: 0; padding: 0; background: #fff; font-family: Verdana, Arial, helvetica, sans-serif; color: #000000; }
+#contenedor {width: 61.5em; background: #fff; margin: 0.3em auto 0em auto; padding: 0; min-height: 29em; height: auto !important; height: 29em;}
+
+/* Cabecera del IDI */
+
+#cabecera {position: relative; display: block; clear:both; margin:0 auto 0 auto; padding:0; }
+#cabecera #escudo {position: absolute; display: block; z-index:1; left:0; }
+#cabecera #escudo img {padding:0; margin:0; }
+/*#cabecera #logo {position:absolute; display:block; z-index:2; left:12.81em; top:0; width:4.44em; height:4em;}
+#cabecera #logo img {width:12.81em; height:3.44em; float:left; margin:0;}*/
+#cabecera #fondo-plan {position:absolute; display:block; z-index:3; left:12.86em; top: 0em; width:44.1em; height:4em;}
+#cabecera #fondo-plan img {float:left; width:48.58em; float:left; margin:0; height:3.44em;}
+#cabecera #plan {position: absolute; display: block; z-index:4; left: 14em; top: 0.8em;}
+#cabecera #plan h1 {margin: 0; padding: 0; font-family: Arial, helvetica, sans-serif; color:#fff;}
+
+/* Cabecera de las paginas */	
+#cab-titulo {width:61.5em; min-height:4.38em; height:auto !important; height:4.38em; margin:0.3em auto 0 auto; border-bottom:0.16 solid #44668E; background:url('../img/fondo-bg.gif') repeat-x left bottom;}
+#cab-titulo .titulo {float:left; width:30.05em; background: url("../img/bullet-h1.gif") no-repeat top left; margin:0; padding:0; min-height:3.3em; height:auto !important; height:3.3em;}
+#cab-titulo .titulo h2 {font-family: Arial, helvetica; font-size:0.9em; margin:0; padding:0.9em 0 0.3em 3.9em; font-weight:bold; color:#334C6A;}
+#cab-titulo .titulo h2.sin {font-family: Arial, helvetica; font-size:0.9em; margin:0; padding:1.8em 0 0.3em 3.9em; font-weight:bold; color:#334C6A;}
+#cab-titulo .titulo h3 {font-family: Arial, helvetica; font-size:0.7em; margin:0; padding:0 0 0.5em 5em; font-weight:bold; color:#334C6A;}
+#cab-titulo .enlaces {color:#334C6A; text-align:right; font-size:0.7em; margin:0; padding:0.50em 1.35em 4.3em 0; background: url('../img/fondo-h1-derecho.gif') no-repeat top right;}
+#cab-titulo .enlaces a {color:#334C6A; font-weight:bold; text-decoration: none; padding:0; margin-right:0.3em;}
+#cab-titulo .enlaces a:hover {color:#883636; font-weight: bold; text-decoration:none; border-bottom: 0.06em dotted #883636;padding-bottom: 0.15em;}
+#cab-titulo .enlaces a:active {color:#883636; font-weight: bold; text-decoration:none; border-bottom: 0.06em dotted #883636;padding-bottom: 0.15em;}
+#cab-titulo .enlaces strong {color:#883636; font-weight: bold; text-decoration:none; border-bottom: 0.06em dotted #883636;padding-bottom: 0.15em;}
+
+/* Contenido de las paginas */
+#contenido{clear:both; width:61.4em; min-height:20em; height:auto !important; height:20em; margin:0em auto 0em auto; border:1px solid #BED7EF; background: url('../img/fondo-contenido.jpg') repeat-x top left #FFF;}
+#contenido h4 {color:#147; font-size:0.9em; font-family: Arial, Helvetica; margin:0; padding:0;}
+#contenido p {color:#147; font-size:0.75em; font-weight:normal; text-align:left; padding:0 0 1em 1em; clear: both;}
+#contenido form {margin:0; padding:0; border:0;}
+#contenido .izquierdo {width:30.31em; float:left;}
+#contenido .derecho {width:30.31em; float:left;}
+#contenido ul {margin: 0.63em 0 0.63em 1.5em; padding:0em;  text-align:left;}
+#contenido ul li {padding: 0.25em 0 0.25em 0; list-style-image: url('../img/flecha-li.gif'); text-align:justify;}
+#contenido a {font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #5880AF; font-weight: normal; text-decoration: none;}
+#contenido a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #3B4A78; font-weight: normal; text-decoration: underline;}
+
+#contenido .mensaje {margin:0; padding:1.5em 0 0em 1.8em; width:58em; clear:both;}
+#contenido .mensaje .men-incorrecto {margin:0em 1.5em 0em 0; background: url('../img/ico-error.gif') no-repeat top left; float:left; width:35em;}
+#contenido .mensaje .men-incorrecto ul {margin:0; padding:0 0 0 3.1em; text-align:left;}
+#contenido .mensaje .men-incorrecto ul li {padding:0; margin:0; list-style-image: url('../img/flecha-roja.gif'); text-align:left; color:#CC0000; font-size:0.8em;}
+#contenido .mensaje .men-incorrecto p {font-family: Arial, Helvetica, sans-serif; font-size:0.8em; font-weight:bold; color:#CC0000; margin:0.2em 0 0 1.5em; padding:0 0 0 1.2em;}
+#contenido .mensaje .men-correcto {margin:0em 1.5em 0em 0; background: url('../img/ico-correcto.gif') no-repeat top left; float:left; width:20em;}
+#contenido .mensaje .mensaje-correcto {font-family: Arial, Helvetica, sans-serif; font-size:0.8em; font-weight:bold; color:#316185; margin:0.2em 0 0.8em 1.5em; padding:0 0 0 1.2em;}
+
+#contenido .enlaces {color:#334C6A; text-align:right; font-size:0.7em; margin:0 2em 2em 0; padding:0; min-height:4em; height:auto !important; height:4em; }
+#contenido .enlaces a {color:#334C6A; font-weight:bold; text-decoration: none; padding:0; margin:0.5em 0.3em 0.5em 0;}
+#contenido .enlaces a:hover {color:#883636; font-weight: bold; text-decoration:none; border-bottom: 0.06em dotted #883636;padding-bottom: 0.15em;}
+#contenido .enlaces a:active {color:#883636; font-weight: bold; text-decoration:none; border-bottom: 0.06em dotted #883636;padding-bottom: 0.15em;}
+#contenido .enlaces strong {color:#883636; font-weight: bold; text-decoration:none; border-bottom: 0.06em dotted #883636;padding-bottom: 0.15em;}
+#contenido .enlaces .txtobliga {color:#883636; font-weight: bold; text-decoration:none; padding:0 0.2em 0 0.2em; margin:0em;}
+
+/* Contenido del Login */
+#form-login {width:38.63em; min-height:17.63em; height:auto !important; height:17.63em; padding:0em; margin:4em auto 1em auto; background: url('../img/fondo-login.jpg') no-repeat top left;}
+#form-login h4{margin:0; padding:0 0 0 2em; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; font-weight:bold;}
+#form-login .sup-izqda {margin:0; float:left; padding:2em 0.5em 0 2em; text-align:left;}
+#form-login .sup-izqda p {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; margin:0; padding:0; color:#334C6A; font-weight:bold;}
+#form-login .sup-izqda a {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; margin:0; padding:0; color:#334C6A; font-weight:bold; text-decoration: none;}
+#form-login .sup-izqda a:hover {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; color:#C00; text-decoration:underline;font-weight:bold;}
+
+#form-login .sup-dcha {margin:0; padding:2em 2em 0 0.5em; text-align:right;}
+#form-login .sup-dcha a {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; color:#147; font-weight:bold; background: url('../img/ico-txt-sup.gif') no-repeat left; padding-left:1.13em;}
+#form-login .sup-dcha a:hover {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; color:#C00; text-decoration: underline;font-weight:bold;}
+#form-login .campos {padding:0.25em; margin:0.8em 0 0.8em 7.5em; font-family:Arial, Helvetica, sans-serif; color:#147; text-align:justify; text-decoration:none;}
+#form-login .labetxt {width:10em; font-size:0.8em; color:#147; margin:0; font-weight:bold; padding:0 0.5em 0 0; text-decoration:none;  text-align:right; float:left; }
+#form-login .inputxt {width:12em; font-size:0.8em; color:#147; margin:0; font-weight:bold; padding:0; text-decoration:none; background-color:#FFFFFF;  } 
+#form-login .botones {padding:0; margin:2em 5em 0em 0; text-align:right; font-family:Arial, Helvetica, sans-serif; display:block; width: 95%;}
+#form-login .bot {width:auto; font-weight:bold; cursor:hand; color:#147; font-size:0.75em; background: url("../img/fondo-boton.jpg") bottom repeat-x; border:0.06em #8D96A8 solid; margin:0; padding:0.3em 0.75em 0.3em 0.75em;}
+
+
+/* Capas del menu lateral izquierdo vertical */
+#gralConten {clear:both; width:61em; min-height:18.75em; height: auto !important; height:18.75em; margin:0em auto 0em auto;}
+
+#gralConten #izqdaConten {float:left; width:10.5em; min-height:21.88em; height:auto !important; height:21.88em; padding:0 0.6em 0 0; margin:0;  background: url('../img/fondo-izquierdo.gif') no-repeat top right;}
+	#izqdaConten .nav {width:100%; margin:0 0 2em 0; padding:0; font-size:0.8em;}
+	#izqdaConten .nav dt {margin:0 0 0.3em 0; padding:0; border-left:0.06em solid #738CAA; border-top:0.06em solid #738CAA; border-bottom:0.06em solid #738CAA; min-height:2.0em; font-weight:bold; height:auto !important; height:2.0em; line-height:2.0em;}	
+	#izqdaConten .nav dt a {font-size:0.9em; text-decoration:none; color:#147; font-weight:bold; letter-spacing:-0.03em; padding:0 0.6em 0 0.6em; display: block;}
+	#izqdaConten .nav dt a:visited {font-size:0.9em; text-decoration:none; color:#147;}
+	#izqdaConten .nav dt a:hover {font-size:0.9em; background-color:#BDD6EF; color:#314F73; text-decoration:none;}	
+	#izqdaConten .nav dd {margin:0em; padding:0; min-height:1.7em; font-weight:bold; min-height:1.7em; height:auto !important; height:1.7em; line-height:1.7em; font-weight:normal;}
+	#izqdaConten .nav dd a {font-size:0.9em; text-decoration:none; color:#44668E; margin-left:0em; padding:0 0.6em 0 1.5em;  text-decoration:none;  display: block;}
+	#izqdaConten .nav dd a:visited {font-size:0.9em; text-decoration:none; color:#44668E;}
+	#izqdaConten .nav dd a:hover {font-size:0.9em; text-decoration:none; color:#FFF; background-color:#44668E;}	
+
+#gralConten #centralConten {float:left; width:48em; padding:0 0.6em 0 0; margin:0; }
+	#centralConten h4 {font-family:Arial, Helvetica; color:#147; font-size:0.95em; font-weight:bold; margin:0; padding:0.35em; background-color: #E6E6E6;}
+	#centralConten h5 {font-family:Arial, Helvetica; color:#147; font-size:0.85em; font-weight:bold; margin:0; padding:0.35em; background-color: #E6E6E6;}
+	#centralConten p  {font-family:Arial, Helvetica; color:#000; font-size:0.8em; font-weight:normal; margin:0;}
+	#centralConten .resultados {font-family: Arial, Helvetica; color:#3B4A78; font-size:0.75em; font-weight: bold; margin:0; padding:0 0 0.8em 0;}
+	#centralConten .resultafinal {font-family: Arial, Helvetica; color:#B40026; font-size:0.75em; font-weight: bold; margin:0; padding:0 0 0.8em 0;}
+	#centralConten ul {margin:0; padding:0.3em 0 0 0.6em; color:#000;}
+	#centralConten ul li {margin:0em; margin-left:1em; padding:0 0 0.6em 0; list-style-image: url("../img/flecha-li.gif"); color:#000; font-family:Arial,Helvetica; line-height:1.3em;}
+	#centralConten p.nota {margin:1.3em 0.25em 0.75em 0; padding:0; clear: both; color:#000; font-family: Arial, Helvetica; font-weight:bold; }
+	#centralConten a {color:#147; font-family: Arial, Helvetica; text-decoration:underline; font-weight:bold;}
+	#centralConten a:hover {color:#263950; font-family: Arial, Helvetica; text-decoration:underline; font-weight:bold; }
+	#centralConten a:active {color:#848E92; font-family: Arial, Helvetica; text-decoration:underline; font-weight:bold;}	
+
+
+/* tablas */
+#contenido2 {font-size: 11px;}
+#contenedor table { border: 1px solid #D4E0EE; border-collapse: collapse; font-family: "Trebuchet MS", Arial, sans-serif; color: #555; margin: 0px auto 0px auto; padding-right: 12px; font-size: 11px;}	
+#contenedor td  { border: 1px solid #D4E0EE; border-collapse: collapse; font-family: "Trebuchet MS", Arial, sans-serif; color: #555; padding-left: 26px; padding-top: 4px; padding-bottom: 4px; text-align:center}
+#contenedor th  { border: 1px solid #D4E0EE; border-collapse: collapse; font-family: "Trebuchet MS", Arial, sans-serif; color: #555; }
+#contenedor caption { font-size: 150%; font-weight: bold; margin: 5px; }
+#contenedor td, th { padding: 4px; }
+#contenedor thead th { text-align: center; background: #E6EDF5; color: #4F76A3; font-size: 100% !important; }
+#contenedor tbody th { font-weight: bold; }
+#contenedor tbody tr { background: #FCFDFE; }
+#contenedor tbody tr.odd { background: #F7F9FC; }
+#contenedor table a:link { color: #718ABE; text-decoration: none; }
+#contenedor table a:visited { color: #718ABE; text-decoration: none; }
+#contenedor table a:hover { color: #718ABE; text-decoration: underline !important; }
+#contenedor tfoot th, tfoot td { font-size: 85%; }
+
+/* Capas del menu */
+#formenu {width:60.63em; min-height:17.63em; height:auto !important; height:17.63em; padding:0em; margin:0em auto 1em auto; background: url('../img/fondo-form.jpg') no-repeat top left;}
+#formenu .izquierdo {width:26em; float:left; margin:2em auto 1em 1.5em;}
+#formenu .derecho {width:26em; float:left; margin:2em 2em 1em 2em;}
+#formenu .izquierdo ul, #formenu .derecho ul {margin: 0.3em 0 0.3em 3em; padding:0em; text-align:left;}
+#formenu .izquierdo ul li, #formenu .derecho ul li {padding: 0.3em 0 0.25em 0.4em; list-style-image: url('../img/ico-menu.gif'); text-align:justify; vertical-align: top;}
+#formenu .izquierdo a, #formenu .derecho a {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; margin:0; padding:0; color:#334C6A; font-weight:bold; text-decoration: none;}
+#formenu .izquierdo a:hover, #formenu .derecho a:hover {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; margin:0; padding:0; color:#334C6A; font-weight:bold; text-decoration: underline;}
+
+/* Capas del formulario */
+#formulario {width:60.63em; min-height:17.63em; height:auto !important; height:17.63em; padding:0em; margin:0 auto 2em auto; background: url('../img/fondo-form.jpg') no-repeat top left; clear:both;}
+
+#formulario .izquierdo {width:27em; float:left; margin:0em auto auto 0em; padding: 0em;}
+#formulario .derecho {width:27em; float:left; margin:0em auto auto auto; padding: 0em;}
+#formulario .centro {width:54em; float:left; margin:0em auto auto 0em; padding: 0em;}
+#formulario .centro2 {width:54em; float:left; margin:0em auto auto 0em; padding: 0em;}
+
+#formulario .izquierdo ul, #formulario .derecho ul {margin: 0.63em 0 0.63em 1.5em; padding:0em;  text-align:left;}
+#formulario .izquierdo ul li, #formulario .derecho ul li {padding: 0.25em 0 0.25em 0; list-style-image: url('../img/flecha-li.gif'); text-align:justify;}
+#formulario .izquierdo a, #formulario .derecho a {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; margin:0; padding:0; color:#334C6A; font-weight:bold; text-decoration: none;}
+#formulario .izquierdo a:hover, #formulario .derecho a:hover {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; margin:0; padding:0; color:#334C6A; font-weight:bold; text-decoration: underline;}
+#formulario p.leyenda{font-family: Arial, Helvetica, sans-serif; font-size:0.75em; margin:1em 3em 0 4em; width:90%; padding:0; color:#334C6A; font-weight:bold; display:block; height:auto; clear:both;}
+	
+/* Contenidos del formulario */
+#formulario fieldset {margin:0; padding:0 0 0 3.5em; border:0;} 
+#formulario fieldset legend {margin:0; padding:0em; font-family: Arial, Helvetica, sans-serif; font-size:0.95em; color:#334C6A; font-weight:bold; border:0em;}
+
+#formulario form {border-top:0.1em solid #999; width:96%;}
+
+/* Campos formulario sin tamaño */
+#formulario label {margin:0; padding:1em 0 0 0.5em; width:auto; font-size:0.7em;  font-weight:bold; clear:both; color: #147; display:block;}
+#formulario .ptxt {margin:0; padding:0 0.5em 0 0.5em; font-size:0.85em; font-weight:bold; color: #8D8D8D;}
+#formulario .inputxt {margin:0 0 0 0.4em; width:auto; font-size:0.7em; color:#147; letter-spacing:0.06em;  padding:0.2em 0.1em 0.2em 0.1em; background-color:#FFF; font-family: Arial, Helvetica, sans-serif;} 
+#formulario .inputdisable {margin:0 0 0 0.4em; width:auto; font-size:0.7em; color:#147; letter-spacing:0.06em; padding:0.2em 0.1em 0.2em 0.1em; background-color:#EEE; font-family: Arial, Helvetica, sans-serif;} 
+#formulario .txtarea { margin:0 0 0 0.4em; width:100%; font-size:0.7em; color:#147; letter-spacing:0.06em; padding:0.2em 0.1em 0.2em 0.1em; background-color:#FFF; font-family: Arial, Helvetica, sans-serif;}
+#formulario .check  {margin:0;  padding:0.1em 0.1em 0.1em 0.1em; background-color:#FFFFFF; border: 0;} 
+#formulario .radio  {margin:0;  padding:0.1em 0.1em 0.1em 0.1em; background-color:#FFFFFF; border: 0;}
+#formulario .bot-submit {padding:0; margin:1.5em 0em 1.5em 0; text-align:center; font-family:Arial, Helvetica, sans-serif; z-index:30;display:block; clear:both;width:90%;}
+#formulario .bot {width:auto; font-weight:bold; cursor:hand; color:#147; font-size:0.7em; background: url("../img/fondo-boton.jpg") bottom repeat-x; border:0.06em #8D96A8 solid; margin:0 0.5em 0 0.5em; padding:0.25em 0.75em 0.2em 0.75em;}
+
+/* Campos formulario con tamaño */
+#formulario .inputxt-s   {width:2em;  font-size:0.7em; color:#147; margin:0; font-weight:bold; padding:0 0.1em 0 0.1em; text-decoration:none; background-color:#FFFFFF;} 
+#formulario .inputxt-xs  {width:6em;  font-size:0.7em; color:#147; margin:0; font-weight:bold; padding:0 0.1em 0 0.1em; text-decoration:none; background-color:#FFFFFF;} 
+#formulario .inputxt-m   {width:12em; font-size:0.7em; color:#147; margin:0; font-weight:bold; padding:0 0.1em 0 0.1em; text-decoration:none; background-color:#FFFFFF;} 
+#formulario .inputxt-l   {width:18em; font-size:0.7em; color:#147; margin:0; font-weight:bold; padding:0 0.1em 0 0.1em; text-decoration:none; background-color:#FFFFFF;} 
+#formulario .inputxt-xl  {width:24em; font-size:0.7em; color:#147; margin:0; font-weight:bold; padding:0 0.1em 0 0.1em; text-decoration:none; background-color:#FFFFFF;} 
+#formulario .inputxt-xxl {width:30em; font-size:0.7em; color:#147; margin:0; font-weight:bold; padding:0 0.1em 0 0.1em; text-decoration:none; background-color:#FFFFFF; } 
+#formulario .check-s   	 {width:2em;  color:#147; margin:0;  padding:0.1em 0.1em 0.1em 0.1em; background-color:#FFFFFF; border: 0; } 
+#formulario .radio-s   	 {width:2em;  color:#147; margin:0;  padding:0.1em 0.1em 0.1em 0.1em; background-color:#FFFFFF; border: 0; } 
+
+/* Capas a modo de tablas documentacion */
+#formulario .tab-camp   {margin:0.5em auto 0 0.5em; clear: both; width:54em; border: 0.06em solid #DDD; }
+#formulario .tab-comtenido   {margin:0em auto 0 0.5em; clear: both; width:54em; border: 0.06em solid #DDD; }
+#formulario .tab-comtenido p {min-height:2em; height:auto !important; height:2em; margin:0;  padding:0.8em 0 0 0; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; color:#334C6A; font-weight:bold; text-align:center;}
+#formulario .tab-comtenido p a:hover img {background:transparent url('../img/ico-fon-off.gif') repeat-x top center; border:0; text-align:center;}
+#formulario .tab-camp h5{margin:0em; padding:0; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; color:#334C6A; font-weight:bold; background: url('../img/fondo-tab.jpg') top left repeat-x; border: 0.06em solid #DDD;text-align:center; }
+#formulario .tab-camp-a {margin:0em; float:left; width:5em; color:#147; font-family: Arial, Helvetica, sans-serif; text-align:center; background: url('../img/fondo-bg-form.jpg') top left repeat-x; border: 0.06em solid #DDD; }
+#formulario .tab-camp-b {margin:0em; float:left; width:18.67em; height: auto; color:#147; font-family: Arial, Helvetica, sans-serif; background: url('../img/fondo-bg-form.jpg') top left repeat-x; border: 0.06em solid #DDD; }
+#formulario .tab-camp-c {margin:0em; float:left; width:18.67em; height: auto; color:#147; font-family: Arial, Helvetica, sans-serif; background: url('../img/fondo-bg-form.jpg') top left repeat-x; border: 0.06em solid #DDD; }
+#formulario .tab-camp-d {margin:0em; float:left; width:6em; height: auto; color:#147; font-family: Arial, Helvetica, sans-serif; background: url('../img/fondo-bg-form.jpg') top left repeat-x; border: 0.06em solid #DDD; }
+#formulario .tab-camp-e {margin:0em; float:left; width:5em; height: auto; color:#147; font-family: Arial, Helvetica, sans-serif; background: url('../img/fondo-bg-form.jpg') top left repeat-x; border: 0.06em solid #DDD; }
+#formulario .tab-camp-a img,#formulario .tab-camp-d img, #formulario .tab-camp-e img {margin:0; border:0; padding:0;}
+
+/* Solapas solicitud */
+#formulario .tab-listado {margin:0.8em auto 0 0.5em; clear:both; padding:0; width:53.70em; height:11.5em; display:block; background:transparent url('../img/fon-bg-list.gif') repeat-x top left; font-family:Arial,Verdana,Helvitica,sans-serif; border:0.06em solid #DDD;}
+
+#formulario .tab-listado ul {margin:0; padding:0; display:block;clear:both;}
+#formulario .tab-listado ul li {margin:0; padding:0; color:#334C6A; width:auto; display:inline;}
+#formulario .tab-listado div.titulo{margin:0 0 0 0em; padding:0.5em 0 0.4em 0.5em; width:40em; float:left; display:block; font-weight:bold; font-size:0.8em; height:1.3em; line-height:1.3em; }
+#formulario .tab-listado div.imp   {margin:0 0 0 0em; padding:0.5em 0 0.4em 2.2em; width:auto; float:left; background:transparent url('../img/ico-impreso.gif') no-repeat top left; height:1.2em; line-height:1.2em;}
+
+#formulario .tab-listado ul li ul{background:transparent url('../img/fon-bg-tab.gif') repeat-x top left; height:10em; line-height:10em; display:block;clear:both;}
+#formulario .tab-listado div.sub-titulo{margin:0 0 0 0em; padding:0.9em 0 0.4em 2.5em; width:60.7em; float:left; display:block; font-weight:bold; font-size:0.7em; height:1em; line-height:1em;}
+#formulario .tab-listado div.des {margin:0 0 0 0em; padding:0.5em 0 0.4em 2.2em; width:7em; float:left; background:transparent url('../img/ico-descargar.gif') no-repeat top left; height:1.05em; line-height:1.05em; }
+
+/* Formulario divs con tamaños absolutos  */
+
+#formulario .a-layer {float:left; width:10em; padding:0; margin:0 0.9em 0.6em 0.3em;}
+#formulario .a-layer p {float:left; width:auto; padding:0.5em 2.5em 0.5em 0em; margin:0 1.5em 0.6em 0.3em;}
+#formulario .a-layer h4 {margin:0; padding:0em; font-family: Arial, Helvetica, sans-serif; font-size:0.95em; color:#334C6A; font-weight:bold; display:inline; border-bottom:0;}
+
+#formulario .b-layer {float:left; width:15em; padding:0; margin:0 0.9em 0.6em 0.3em;}
+#formulario .b-layer p {float:left; width:auto; padding:0.5em 2.5em 0.5em 0em; margin:0 1.5em 0.6em 0.3em;}
+#formulario .b-layer h4 {margin:0; padding:0em; font-family: Arial, Helvetica, sans-serif; font-size:0.95em; color:#334C6A; font-weight:bold; display:inline; border-bottom:0;}	
+
+#formulario .c-layer {float:left; width:20em; padding:0; margin:0 0.9em 0.6em 0.3em;}
+#formulario .c-layer p {float:left; width:auto; padding:0.5em 2.5em 0.5em 0em; margin:0 1.5em 0.6em 0.3em;}
+#formulario .c-layer h4 {margin:0; padding:0em; font-family: Arial, Helvetica, sans-serif; font-size:0.95em; color:#334C6A; font-weight:bold; display:inline; border-bottom:0;}	
+
+#formulario .d-layer {float:left; width:25em; padding:0; margin:0 0.9em 0.6em 0.3em;}
+#formulario .d-layer p {float:left; width:auto; padding:0.5em 2.5em 0.5em 0em; margin:0 1.5em 0.6em 0.3em;}
+#formulario .d-layer h4 {margin:0; padding:0em; font-family: Arial, Helvetica, sans-serif; font-size:0.95em; color:#334C6A; font-weight:bold; display:inline; border-bottom:0;}	
+
+#formulario .e-layer {float:left; width:30em; padding:0; margin:0 0.9em 0.6em 0.3em;}
+#formulario .e-layer p {float:left; width:auto; padding:0.5em 2.5em 0.5em 0em; margin:0 1.5em 0.6em 0.3em;}
+#formulario .e-layer h4 {margin:0; padding:0em; font-family: Arial, Helvetica, sans-serif; font-size:0.95em; color:#334C6A; font-weight:bold; display:inline; border-bottom:0;}	
+
+#formulario .x-layer {float:left; width:96%; padding:0; margin:0 0.9em 0.6em 0.3em;}
+#formulario .x-layer p {float:left; width:auto; padding:0.5em 1.2em 0.5em 0em; margin:0 1.5em 0.6em 0.3em;}
+#formulario .x-layer h4 {margin:0; padding:0em; font-family: Arial, Helvetica, sans-serif; font-size:0.95em; color:#334C6A; font-weight:bold; display:inline; border-bottom:0;}	
+	
+#centralCont .bot-submit {padding:0; margin:0.5em 4em 1.5em 0; text-align:right; font-family:Arial, Helvetica, sans-serif; width:45.5em; float:left; clear:both;}
+	
+
+/*---- Pie de página -----*/
+#inferior {font-family: Arial, Helvetica, sans-serif; clear:both; width:61.4em; min-height:3.4em; height:auto !important; height:3.4em; margin:0.25em auto 0.2em auto;background: url("../img/fondo-pie.jpg") repeat-x left top; border-left:0.06em solid #BED7EF;border-right:0.06em solid #BED7EF; border-top:0.06em solid #BED7EF;}
+#inferior #pie {line-height:0.5em;text-align:right;margin:0.5em 0.5em 0.85em 0.7em; color:#147;}
+#inferior #pie p {padding-right:0.5em;padding-top:0.05em;font-size:0.75em;}
+#inferior #pie a {color:#333;font-size:0.9em;margin-top:0.2em;text-decoration:none; font-weight: normal;}
+#inferior #pie a:hover {color:#C00; font-size:0.9em;text-decoration:none; border-bottom:0.06em dotted #C00;}
+
+#pie {width:61.4em; min-height:3.4em; height:auto !important; height:3.4em; background: url("../img/fondo-pie.jpg") repeat-x left top; line-height:0.5em;text-align:right;margin:0.5em 0.5em 0.85em 0.7em; color:#147;}
+#pie p {padding-right:0.5em;padding-top:0.05em;font-size:0.75em;}
+#pie a {color:#333;font-size:0.9em;margin-top:0.2em;text-decoration:none; font-weight: normal;}
+#pie a:hover {color:#C00; font-size:0.9em;text-decoration:none; border-bottom:0.06em dotted #C00;}
+
+/*-----  Estilos añadidos --------*/
+/*añadido para la pantalla de error*/
+	#contenido p.mensajeError{text-align:center; }
+	#contenido a.linkError{text-align:center;font-size:1.1em}
+	#contenido a:hover.linkError{text-align:center;font-size:1.1em}
+/* Añadido para la página de recordar contraseña*/
+	#formulario .campos {padding:0.25em; margin:0.8em 0 0.8em 0;  color:#147; text-align:justify; text-decoration:none;}
+/* estilo para el botón de añadir centro
+	#formulario .centro a:hover {font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #147; font-weight: bold; text-decoration: none; background: url("../img/fondo-boton.jpg") bottom repeat-x;}
+	#formulario .centro a {font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #147; font-weight: bold; text-decoration: none; background: url("../img/fondo-boton.jpg") bottom repeat-x;}*/
+/* Añadido para la página de recordar contraseña*/
+	#formulario .labetxt {width:15em; font-size:0.7em; color:#147; margin:0; font-weight:bold; padding:0 0.5em 0 0; text-decoration:none;  text-align:right; float:left; }
+	#formulario .vacio   {width:2em;  height:4.2em; font-size:0.7em; color:#147; margin:0; font-weight:bold; padding:0 0.1em 0 0.1em; text-decoration:none; background-color:#FFFFFF;}
+/* Añadido para la página de datos académicos */
+	#formulario .centro h4{margin:0 0 0 0.5em; padding:0em; font-family: Arial, Helvetica, sans-serif; font-size:0.80em; color:#334C6A; font-weight:bold; border-bottom:0.2em groove #DDD; width:100%;}
+/* Añadido para la pantalla de los centros*/
+	#formulario .botonVolver, #formulario .botonVolver:hover {width:auto; font-weight:bold; cursor:hand; color:#147; font-size:0.7em; background: url("../img/fondo-boton.jpg") bottom repeat-x; border:0.07em #8D96A8 solid; margin:0 0.5em 0 0.5em; padding:0.3em 0.85em 0.2em 0.85em;text-decoration:none;font-family: Verdana, Arial, Helvetica, sans-serif;z-index:30;}
+
+#formulario .fecha { font-size:0.7em;  color: #147; }		
+
+/*#formulario  .boton_enlace, #formulario .boton_enlace:hover {width:auto; font-weight:bold; color:#147; font-size:0.7em; background: url("../img/fondo-boton.jpg") bottom repeat-x; border:0.06em #8D96A8 solid; margin:0 0.5em 0 0.5em; padding:0.25em 0.75em 0.2em 0.75em;}*/
+
+ #formulario .centro a {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; color:#147; font-weight:bold; background: url('../img/ico-txt-sup.gif') no-repeat left; padding-left:1.13em;}
+#formulario .centro a:hover {font-family: Arial, Helvetica, sans-serif; font-size:0.75em; color:#147; text-decoration: underline;font-weight:bold;}

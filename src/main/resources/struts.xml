@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+	<constant name="struts.devMode" value="true" />
+
+	<package name="basicstruts2" extends="struts-default">
+	
+		<action name="index">
+			<result>/index.jsp</result>
+		</action>
+
+		<action name="">
+			<result>/index.jsp</result>
+		</action>
+		
+		<action name="home">
+			<result type="redirect">obtenerPersona</result>
+		</action>
+
+		<action name="obtenerPersona"
+			class="com.farasanz.web.actions.ObtenerPersonaAction">
+			<result name="exito">/static/persona.jsp</result>
+			<result name="error">/static/error.jsp</result>
+		</action>
+
+		<action name="procesarPersona"
+			class="com.farasanz.web.actions.ProcesarPersonaAction">
+			<result name="exito">/static/persona.jsp</result>
+			<result name="error">/static/error.jsp</result>
+		</action>
+	</package>
+
+	<constant name="struts.custom.i18n.resources"
+		value="messageResources" />
+
+
+	<constant name="struts.objectFactory" value="org.apache.struts2.spring.StrutsSpringObjectFactory" />
+
+
+</struts>
+
